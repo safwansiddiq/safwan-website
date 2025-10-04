@@ -1,8 +1,9 @@
-baseURL = "https://safwan-blowfish.netlify.app/"
-theme = "blowfish"
-defaultContentLanguage = "en"
+[build]
+  command = "git submodule update --init --recursive && hugo --gc --minify"
+  publish = "public"
 
-[module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.87.0"
+[build.environment]
+  HUGO_VERSION = "0.139.0"
+
+[context.production.environment]
+  HUGO_ENV = "production"
