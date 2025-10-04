@@ -1,0 +1,13 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "My Website"
+
+[author]
+  name = "Safwan Siddiq"
+  image = "img/author.jpg"
+  headline = "This is MY headline"
+  bio = "This is MY bio"
+  links = [
+    { github = "https://github.com/safwansiddiq" }
+  ]
