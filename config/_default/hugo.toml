@@ -1,0 +1,8 @@
+baseURL = "https://safwan-blowfish.netlify.app/"
+theme = "blowfish"
+defaultContentLanguage = "en"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.87.0"
